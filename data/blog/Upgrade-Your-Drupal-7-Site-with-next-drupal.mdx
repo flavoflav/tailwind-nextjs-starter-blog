@@ -1,0 +1,93 @@
+---
+title: "Avoid a Drupal 9 Migration Headache: Use NEXT-DRUPAL to Upgrade Your Drupal 7 Site"
+date: "May 2, 2022"
+  tags: ["Next-Drupal", "Vercel", "Decoupled Architecture", "Drupal", "Headless CMS", "Frontend Hosting"],
+draft: false
+summary: "Chapter Three offers a modern approach for upgrading from Drupal 7: migrate content to Drupal 9 and decouple the front end using Next.js via their Next-Drupal framework. This three-step process involves cleaning and restructuring content, building a performant front end, and hosting the back end and front end separately — with Drupal on a low-cost provider and Next.js on Vercel. The result is a scalable, cost-efficient, and future-ready headless CMS solution."
+tags: ["Drupal 7", "Drupal 9", "Next-Drupal", "Headless CMS", "Next.js", "Migration"],
+images: []
+layout: PostLayout
+---
+
+# Upgrading from Drupal 7 with Next-Drupal
+
+Drupal 7 and PHP’s end-of-life are right around the corner, and many organizations are evaluating their best path forward.
+
+The typical options are:
+1. **Lift and shift** to Drupal 9
+2. **Lift, shift, and improve** a few things
+3. **Rethink and rebuild** from the ground up
+
+Each path typically results in a **complex Drupal 9 site**, burdened by years of legacy code, entangled content types, and front-end bloat.  
+At first glance, the upgrade process seems **cost-prohibitive** and possibly not worth it.
+
+---
+
+## But There’s a Better Way
+
+**Chapter Three** offers a modern alternative:  
+Our [Next-Drupal](https://www.next-drupal.org) integration combines the power of **Drupal 9 as a content platform** with a **Next.js decoupled front end** — a true **headless CMS** that delivers the best of both worlds.
+
+---
+
+## NEXT-Drupal: Our Headless CMS Solution
+
+We propose a three-step upgrade strategy using **Next-Drupal**:
+
+---
+
+### Step One: Clean Up Drupal 7 Content
+
+Most Drupal 7 sites are overloaded with:
+- Inline HTML inside body fields
+- Hardcoded image links
+- Legacy content structures
+
+We fix this through automated migration:
+
+- Strip out inline HTML and WYSIWYG clutter
+- Move images into the **Media module**
+- Migrate files cleanly into Drupal 9
+- Reduce unnecessary module dependencies
+
+The result: a **lean Drupal 9 installation** that’s JSON-ready for your Next.js front end.
+
+---
+
+### Step Two: Build a Modern Front End
+
+Using **Next.js**, we construct a new front-end with:
+
+- Static, performant page-building components (HTML, JavaScript, CSS)
+- Real-time collaboration between marketers, designers, and developers
+- API-based workflows that pull content and design components directly into the site
+
+> “This is the new way to work.”
+
+---
+
+### Step Three: Host Smart, Scale Efficiently
+
+Yes, decoupling means two hosting environments — but that’s a good thing.
+
+- **Drupal** handles editor access and API calls only, so it can run on a **low-cost host**
+- **Vercel** serves the fast, React-based front-end
+
+**Why Vercel?**
+
+- Hosting starts at ~$20/month with 1 TB of data transfer
+- Pricing is based on **bandwidth**, not **page views**
+- Traffic spikes won’t wreck your budget
+- No need for high-performance Drupal hosting infrastructure
+
+---
+
+## Let’s Recap
+
+✅ Sanitize and restructure your Drupal 7 content  
+✅ Rebuild on a clean, component-based **Next-Drupal** platform  
+✅ Host front-end on **Vercel** and back-end Drupal on a budget provider  
+
+---
+
+> **Drupal is a fantastic content platform. Next.js and Vercel are the ultimate front-end stack. They belong together.**
