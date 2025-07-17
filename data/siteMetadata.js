@@ -1,23 +1,23 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Dial-Up to Decoupled',
+  title: 'Johns Blog',
   author: 'John Faber',
-  headerTitle: 'Principled Output',
-  description: 'Thirty years in the stack—from dial-up to decoupled.',
+  headerTitle: 'TailwindBlog',
+  description: 'Johns thoughts',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: '',
+  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: '',
-  email: 'john@jfaber.net',
-  github: '',
-  x: ''',
+  email: 'address@yoursite.com',
+  github: 'https://github.com',
+  x: 'https://twitter.com/x',
 twitter: '',
   facebook: '',
   youtube: ''',
-  linkedin: 'https://www.linkedin.com/en/johnfaber',
+  linkedin: 'https://www.linkedin.com',
   threads: '',
   instagram: ''',
   medium: '',
@@ -52,7 +52,7 @@ twitter: '',
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
     // Please add your .env file and modify it according to your selection
-    provider: '',
+    provider: 'buttondown',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
@@ -85,7 +85,7 @@ twitter: '',
     },
   },
   search: {
-    provider: '', // kbar or algolia
+    provider: 'kbar', // kbar or algolia
     kbarConfig: {
       searchDocumentsPath: `${process.env.BASE_PATH || ''}/search.json`, // path to load documents to search
     },
